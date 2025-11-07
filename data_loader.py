@@ -1,4 +1,4 @@
-# 数据加载模块
+
 import sqlite3
 import random
 import torch
@@ -78,5 +78,6 @@ def create_data_loaders(db_path, num_samples_per_label, dataset_split_rate, batc
 
     train_loader = DataLoader(train_dataset, batch_size=batch_size, shuffle=True)
     test_loader = DataLoader(test_dataset, batch_size=batch_size, shuffle=False)
+
 
     return dataset, train_loader, test_loader
