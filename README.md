@@ -20,6 +20,7 @@ KAN library (required if using KAN model architecture)
 # Project Structure
 project/
 ├── main.py              # Main entry point
+
 ├── config.py            # Configuration parameters
 ├── data_loader.py       # Data loading and preprocessing
 ├── models.py            # Neural network model definitions
