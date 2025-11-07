@@ -3,10 +3,10 @@ PIKAN
 Power Flow Neural Network
 A PIKAN for power flow analysis using deep learning with physical constraints.
 
-Overview
+# Overview
 This project implements a neural network model that combines traditional power flow analysis with deep learning. The model predicts voltage magnitudes and angles while enforcing physical constraints through a custom loss function that incorporates power balance equations.
 
-Requirements
+# Requirements
 Python Packages
 Python 3.8+
 PyTorch 1.9.0+
@@ -17,7 +17,7 @@ SQLite3 (included in Python standard library)
 Optional Dependencies
 KAN library (required if using KAN model architecture)
 
-Project Structure
+# Project Structure
 project/
 ├── main.py              # Main entry point
 ├── config.py            # Configuration parameters
@@ -26,16 +26,11 @@ project/
 ├── physics.py           # Physical constraint calculations
 ├── train.py             # Training and evaluation logic
 └── utils.py             # Utility functions and visualization
-Usage
+
+# Usage
 Running the Model
 Execute the main script to start training:
 python main.py
-Configuration
-Modify config.pyto adjust hyperparameters:
-# Training configuration
-dataset_split_rate = 0.7
-discriminator_epoch = 1000
-batch_size = 512
 
 # Model selection
 network = 'kan'  # 'kan' or 'mlp'
