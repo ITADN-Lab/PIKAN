@@ -28,6 +28,7 @@ KAN library (required if using KAN model architecture)
 
 # Project Structure
 project/
+
 ├── main.py              # Main entry point
 
 ├── config.py            # Configuration parameters
